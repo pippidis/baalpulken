@@ -73,17 +73,53 @@ const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
       <StaticImage
-        src="../images/example.png"
+        src="../images/Bålpulken_hovedlogo.svg"
         loading="eager"
-        width={64}
+        width={500}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Welcome to <b>Gatsby!</b>
+        Ta med deg bålet på tur!
       </h1>
+
+      <StaticImage
+        src="../images/produktbilde_uten_bakgrunn.png"
+        loading="eager"
+        width={500}
+        quality={100}
+        formats={["auto", "webp", "avif"]}
+        alt="Bilde av Bålpulken sett skrått forfra"
+        style={{ marginBottom: `var(--space-3)` }}
+      />
+
+    <StaticImage
+        src="../images/produktbilde_logo.jpg"
+        loading="eager"
+        width={500}
+        quality={100}
+        formats={["auto", "webp", "avif"]}
+        alt="Nærbilde av front-logoen til Bålpulken"
+        style={{ marginBottom: `var(--space-3)` }}
+      />
+
+
+  <StaticImage
+          src="../images/produktbilde_skøyter.jpg"
+          loading="eager"
+          width={500}
+          quality={100}
+          formats={["auto", "webp", "avif"]}
+          alt="Nærbilde av skøytene til Bålpulken"
+          style={{ marginBottom: `var(--space-3)` }}
+        />
+
+
+
+
+
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
         {samplePageLinks.map((link, i) => (
