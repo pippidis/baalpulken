@@ -76,7 +76,7 @@ const IndexPage = () => (
         src="../images/Bålpulken_hovedlogo.svg"
         loading="eager"
         width={700}
-        quality={95}
+        quality={100}
         formats={["auto", "webp", "avif"]}
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
