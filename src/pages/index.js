@@ -75,7 +75,7 @@ const IndexPage = () => (
       <StaticImage
         src="../images/Bålpulken_hovedlogo.svg"
         loading="eager"
-        width={500}
+        width={700}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt=""
