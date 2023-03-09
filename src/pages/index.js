@@ -130,7 +130,8 @@ const IndexPage = () => (
   src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?controls=0rel=0" 
   title="Bålpulken Trailer" 
   frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen="1"
   > 
   
 </iframe>
