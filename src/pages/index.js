@@ -4,6 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Video from "../components/video"
 import * as styles from "../components/index.module.css"
 
 const links = [
@@ -41,8 +42,15 @@ const samplePageLinks = [
     description:
       "A simple example of linking to another page within a Gatsby site",
   },
+  {
+    text: "Hvordan lage en bålpulk",
+    url: "how_to_make",
+    badge: false,
+    description:
+      "A simple example of linking to another page within a Gatsby site",
+  },
   { text: "TypeScript", url: "using-typescript" },
-  { text: "Server Side Rendering", url: "using-ssr" },
+  { text: "404", url: "404" },
   { text: "Deferred Static Generation", url: "using-dsg" },
 ]
 
@@ -116,6 +124,16 @@ const IndexPage = () => (
           style={{ marginBottom: `var(--space-3)` }}
         />
 
+<iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?controls=0rel=0" 
+  title="Bålpulken Trailer" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+  > 
+  
+</iframe>
 
 
 

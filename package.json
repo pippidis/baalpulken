@@ -9,6 +9,7 @@
     "gatsby-plugin-image": "^3.7.0",
     "gatsby-plugin-manifest": "^5.7.0",
     "gatsby-plugin-sharp": "^5.7.0",
+    "gatsby-remark-embed-video": "^3.2.1",
     "gatsby-source-filesystem": "^5.7.0",
     "gatsby-transformer-sharp": "^5.7.0",
     "react": "^18.2.0",
@@ -30,8 +31,8 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
-  "engines": { 
-    "node": ">=18.0.0" 
+  "engines": {
+    "node": ">=18.0.0"
   },
   "repository": {
     "type": "git",
