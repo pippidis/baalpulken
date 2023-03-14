@@ -222,3 +222,21 @@ pre tt:before,
 pre tt:after {
   content: none;
 }
+
+
+
+
+.feature {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  padding: var(--space-2);
+}
+
+.feature_text {
+  margin-left: var(--space-4);
+  margin-right: var(--space-4);
+  margin-top: 0;
+  margin-bottom: var(--space-4);
+  word-wrap: normal;
+}
