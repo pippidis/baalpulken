@@ -17,6 +17,16 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     {
+      resolve: "gatsby-plugin-i18n",
+      options: {
+        langKeyDefault: "no",
+        langKeyForNull: "en",
+        prefixDefault: false,
+        useLangKeyLayout: false,
+        pagesPaths: ["/src/pages"],
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
@@ -36,7 +46,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/baalpulken-icon.svg`, // This path is relative to the root of the site.
+        icon: `src/images/icon.svg`, // This path is relative to the root of the site.
       },
     },
   ],

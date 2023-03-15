@@ -21,9 +21,11 @@
   --space-4: 24px;
   --space-5: 32px;
   --space-6: 64px;
-  --size-content: 54rem;
+  --size-content: 80rem;
   --size-gutter: var(--space-5);
   --size-gap: var(--space-6);
+
+  --base-font-size: 16px;
 }
 html {
   -webkit-text-size-adjust: 100%;
@@ -226,6 +228,37 @@ pre tt:after {
 
 
 
+@media screen and (max-width: 500px) {
+  :root {
+    --base-font-size: 12px;
+  }
+}
+
+/* Front logo setup */
+.front_logo_wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.front_logo {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.front_logo_text{
+  color: black;
+  margin: 0;
+  margin-bottom: 3rem;
+  padding: 0;
+  line-height: var(--line-height-dense);
+  letter-spacing: -0.01em;
+  font-size: calc(var(--base-font-size)*3);
+  font-weight: inherit;
+  font-weight: bolder;
+}
+
+
+/* Feature setup*/
 .feature {
   display: flex;
   align-items: top;
@@ -240,3 +273,21 @@ pre tt:after {
   margin-bottom: var(--space-4);
   word-wrap: normal;
 }
+
+/* Header setup */
+.flags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flag-icon {
+  display: inline-block;
+  width: 27px;
+  height: 20px;
+  margin-right: var(--space-1);
+}
+
+.flag-active {
+  --border:1px solid rgb(255, 255, 255);
+}
+
