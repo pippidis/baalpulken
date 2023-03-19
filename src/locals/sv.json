@@ -1,0 +1,26 @@
+{   
+    "built_with":"Bygget med ett eller annet",
+    "page_name":"Bonfire pulka",
+    "slogan":"Svensker er teite",
+    
+
+
+    "skates":{
+        "title":"Laget for hastighet!", 
+        "text_1":"Ett eller annet om skøyter",
+        "text_2":"",
+        "img_alt":"Bilde av skøytene på bålpulken"
+    },
+    "hooks":{
+        "title":"Effektivt feste!", 
+        "text_1":"Ett eller annet om skøyter",
+        "text_2":"",
+        "img_alt":"Bilde av skøytene på bålpulken"
+    },
+    "windshield":{
+        "title":"Laget for hastighet!", 
+        "text_1":"Ett eller annet om skøyter",
+        "text_2":"",
+        "img_alt":"Bilde av skøytene på bålpulken"
+    }
+}

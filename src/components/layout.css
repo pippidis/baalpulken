@@ -226,6 +226,26 @@ pre tt:after {
 }
 
 
+/* Layout */
+.footer {
+  margin-top: var(--space-5);
+  font-size: var(--font-sm);
+  display: flex;
+  align-items: center;
+}
+
+.footer_left {
+  text-align: left;
+  width: 50%;
+  float: left;
+}
+
+.footer_right {
+  text-align: right;
+  width: 50%;
+  float: right;
+}
+
 
 
 @media screen and (max-width: 500px) {
@@ -257,6 +277,11 @@ pre tt:after {
   font-weight: bolder;
 }
 
+/* Trailer setup */
+.trailer {
+  justify-content: center;
+  margin-bottom: var(--space-3);
+}
 
 /* Feature setup*/
 .feature {
@@ -264,15 +289,33 @@ pre tt:after {
   align-items: top;
   justify-content: center;
   padding: var(--space-2);
+  margin-bottom: var(--space-4);
 }
 
-.feature_text {
+.feature_img {
+  max-width: 65%;
+  padding: var(--space-2);
+}
+
+.feature_text_right {
   margin-left: var(--space-4);
   margin-right: var(--space-4);
   margin-top: 0;
   margin-bottom: var(--space-4);
+  min-width: 35%;
   word-wrap: normal;
+  text-align: right;
 }
+.feature_text_left {
+  margin-left: var(--space-4);
+  margin-right: var(--space-4);
+  margin-top: 0;
+  margin-bottom: var(--space-4);
+  min-width: 35%;
+  word-wrap: normal;
+  text-align: left;
+}
+
 
 /* Header setup */
 .flags {

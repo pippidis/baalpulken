@@ -23,13 +23,13 @@ const Header = ({ siteTitle }) => (
     </Link>
 
     <div className="flags">
-      <Link to="/404">
+      <Link to="/">
         <span class="flag-icon flag-active fi fi-no"/>
       </Link>
-      <Link to="/404">
+      <Link to="/se">
       <span class="flag-icon fi fi-se"/>
       </Link>
-      <Link to="/404">
+      <Link to="/en">
       <span class="flag-icon fi fi-us"/>
       </Link>
     </div>

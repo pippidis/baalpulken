@@ -7,11 +7,15 @@
 
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import { Link } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
 
-const Layout = ({ children }) => {
+import * as TXT from "../locals/no.json"
+
+const Layout = ({ children, built_with, press_link}) => {
+  const txt = TXT
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -33,15 +37,15 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `var(--space-5)`,
-            fontSize: `var(--font-sm)`,
-          }}
-        >
-          © {new Date().getFullYear()} &middot; Bygget med dårlig humor og 
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <footer className="footer">
+          <div className="footer_left">
+            © {new Date().getFullYear()} &middot; {built_with}
+            {` `}
+            <a href="https://www.gatsbyjs.com">Gatsby</a>
+          </div>
+          <div className="footer_right">
+            <Link to="/press"> {press_link}</Link>
+          </div>
         </footer>
       </div>
     </>

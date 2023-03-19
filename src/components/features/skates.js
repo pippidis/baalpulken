@@ -1,18 +1,25 @@
 import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
-import Img from "gatsby-image"
 import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image"
+
+const img_path =  "../../images/skates.jpg"
+
 
 const Feature = (props) => {
   const title = props.title
-  const text = props.text
+  const text_1 = props.text_1
+  const text_2 = props.text_2
   const alt = props.alt
 
   return (
     <div className='feature'>
-        <div>
+        <div className='feature_text_right'>
+            <h2>{title}</h2>
+            <p>{text_1}</p>
+            <p>{text_2}</p>
+        </div>
+        <div className="feature_img">
             <StaticImage
-                src="../../images/skates.jpg"
+                src={img_path}
                 loading="eager"
                 width={1300}
                 quality={100}
@@ -21,10 +28,7 @@ const Feature = (props) => {
                 style={{ marginBottom: `var(--space-3)` }}
                 />
         </div>
-        <div className='feature_text'>
-            <h2>{title}</h2>
-            <p>{text}</p>
-        </div>
+
     </div>
   )
 }
