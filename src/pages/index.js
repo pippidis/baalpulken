@@ -29,11 +29,11 @@ const Page = () => {
       
       <p>{txt.index.text_1}</p>
       <p>{txt.index.text_2}</p>
-      <ContactForm text={txt.contact_form.text} name={txt.contact_form.name}  email={txt.contact_form.email}  comment={txt.contact_form.comment}  submit={txt.contact_form.submit} />
       <Trailer/>
       <Windshield title={txt.windshield.title} text_1={txt.windshield.text_1} text_2={txt.windshield.text_2} alt={txt.windshield.img_alt}/>
       <Skates title={txt.skates.title} text_1={txt.skates.text_1} text_2={txt.skates.text_2} alt={txt.skates.img_alt}/>
       <Hooks title={txt.hooks.title} text_1={txt.hooks.text_1} text_2={txt.hooks.text_2} alt={txt.hooks.img_alt}/>
+      <ContactForm text={txt.contact_form.text} name={txt.contact_form.name}  email={txt.contact_form.email}  comment={txt.contact_form.comment}  submit={txt.contact_form.submit} />
       
     </Layout>
     </div>
