@@ -248,11 +248,23 @@ pre tt:after {
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   :root {
     --base-font-size: 12px;
+
   }
+  .feature {
+    display: flex;
+    align-items: top;
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--space-2);
+    margin-bottom: var(--space-4);
+  }
+  
+
 }
+
 
 /* Front logo setup */
 .front_logo_wrapper {
@@ -333,7 +345,6 @@ pre tt:after {
 .flag-active {
   --border:1px solid rgb(255, 255, 255);
 }
-
 
 
 /* Form setup */

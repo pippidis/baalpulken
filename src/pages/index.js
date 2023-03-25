@@ -13,7 +13,7 @@ import Hooks from "../components/features/hooks"
 
 import ContactForm from "../components/contact_form"
 
-import BackgroundImage from "../images/front_bilde.jpg"
+import BackgroundImage from "../images/front_bilde.png"
 
 const Page = () => {
   const txt = TXT

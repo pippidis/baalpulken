@@ -11,7 +11,7 @@ import Skates from "../components/features/skates"
 import Windshield from "../components/features/windshield"
 import Hooks from "../components/features/hooks"
 
-import BackgroundImage from "../images/front_bilde.jpg"
+import BackgroundImage from "../images/front_bilde.png"
 
 const Page = () => {
   const txt = TXT
