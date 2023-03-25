@@ -5,7 +5,8 @@ import React from "react"
 const ContactForm = ({text, name, email, comment, submit}) => {
 
     return (
-        <div>
+        <div className="contact_form">
+            <legend>A compact inline form</legend>
             <p>{text}</p>
             <form method="post" data-email='pippidis+baalpulken@gmail.com'
                 action='https://script.google.com/macros/s/AKfycbzVPZLsSkL3dRHKS5_NfYSF_GynFNVW4VNaHFMNu5XTxca-XgauVLPf05Tw6dYOcS3o/exec'
