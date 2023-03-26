@@ -10,7 +10,7 @@ const Feature = (props) => {
   const alt = props.alt
 
   return (
-    <div className='feature'>
+    <div className='feture_left'>
         <div className="feature_img">
             <StaticImage
                 src={img_path}
@@ -19,7 +19,6 @@ const Feature = (props) => {
                 quality={100}
                 formats={["auto", "webp", "avif"]}
                 alt={alt}
-                style={{ marginBottom: `var(--space-3)` }}
                 />
         </div>
         <div className='feature_text_left'>

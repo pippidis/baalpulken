@@ -34,6 +34,7 @@ const Layout = ({ children, built_with, press_link}) => {
           margin: `0 auto`,
           maxWidth: `var(--size-content)`,
           padding: `var(--size-gutter)`,
+          justifyContent: 'center',
         }}
       >
         <main>{children}</main>

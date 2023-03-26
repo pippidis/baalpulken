@@ -5,11 +5,12 @@
     "slogan":"Ikke bare sitt der",
 
     "index": {
-        "text_1":"Dette er noe tekst som beskriver bålpulken",
-        "text_2":"Dette er også noe tekst som beskriver bålpulken"
+        "text_1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras placerat lobortis diam. Aliquam quis lectus aliquet, iaculis ex et, sagittis eros. Nulla bibendum est dignissim elit ultrices, non sollicitudin ex elementum. Fusce at mi at turpis cursus sodales nec id mauris.",
+        "text_2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras placerat lobortis diam. Aliquam quis lectus aliquet, iaculis ex et, sagittis eros. Nulla bibendum est dignissim elit ultrices, non sollicitudin ex elementum. Fusce at mi at turpis cursus sodales nec id mauris."
     },
     "contact_form": {
-        "text":"Dette er en tekst som er over kotaktform greia",
+        "title":"Interesert? - Ta kontakt",
+        "text":"Meld din interesse i dag så tar vi kontakt når vi åpner for salg.",
         "name":"Navn",
         "email":"Epost",
         "comment":"Kommentar",
@@ -18,20 +19,20 @@
 
     "skates":{
         "title":"Laget for hastighet!", 
-        "text_1":"Ett eller annet om skøyter",
-        "text_2":"",
+        "text_1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras placerat lobortis diam. Aliquam quis lectus aliquet, iaculis ex et, sagittis eros. Nulla bibendum est dignissim elit ultrices, non sollicitudin ex elementum. Fusce at mi at turpis cursus sodales nec id mauris.",
+        "text_2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras placerat lobortis diam. Aliquam quis lectus aliquet, iaculis ex et, sagittis eros. Nulla bibendum est dignissim elit ultrices, non sollicitudin ex elementum. Fusce at mi at turpis cursus sodales nec id mauris.",
         "img_alt":"Bilde av skøytene på bålpulken"
     },
     "hooks":{
         "title":"Effektivt feste!", 
-        "text_1":"Ett eller annet om skøyter",
-        "text_2":"",
+        "text_1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras placerat lobortis diam. Aliquam quis lectus aliquet, iaculis ex et, sagittis eros. Nulla bibendum est dignissim elit ultrices, non sollicitudin ex elementum. Fusce at mi at turpis cursus sodales nec id mauris.",
+        "text_2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras placerat lobortis diam. Aliquam quis lectus aliquet, iaculis ex et, sagittis eros. Nulla bibendum est dignissim elit ultrices, non sollicitudin ex elementum. Fusce at mi at turpis cursus sodales nec id mauris.",
         "img_alt":"Bilde av krokene for å trekke Bålpulken"
     },
     "windshield":{
         "title":"Aerodynamisk utformet", 
         "text_1":"Den inovative utforminingen av Bålpulken skjermer bålet fra vinden i selv stor hastighet og gir optimal luftstrøm for god tenning.",
-        "text_2":"",
+        "text_2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras placerat lobortis diam. Aliquam quis lectus aliquet, iaculis ex et, sagittis eros. Nulla bibendum est dignissim elit ultrices, non sollicitudin ex elementum. Fusce at mi at turpis cursus sodales nec id mauris.",
         "img_alt":"Bilde av skøytene på bålpulken"
     }
 }

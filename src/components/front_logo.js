@@ -7,7 +7,7 @@ const Feature = (props) => {
   
     return (
         <div className="front_logo_wrapper">
-            <div className="front_logo">
+            <div className="front_logo_img">
                 <StaticImage
                     src="../images/main_logo.png"
                     loading="eager"

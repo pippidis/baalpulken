@@ -11,7 +11,7 @@ const Feature = (props) => {
   const alt = props.alt
 
   return (
-    <div className='feature'>
+    <div className='feture_right'>
         <div className='feature_text_right'>
             <h2>{title}</h2>
             <p>{text_1}</p>
@@ -25,7 +25,6 @@ const Feature = (props) => {
                 quality={100}
                 formats={["auto", "webp", "avif"]}
                 alt={alt}
-                style={{ marginBottom: `var(--space-3)` }}
                 />
         </div>
 

@@ -4,7 +4,7 @@ import Trailer from "../video/trailer.mp4"
 
 export default  () => (
   <div className="trailer">
-    <video id="trailer_video" controls style={{ width: `95%` }}>
+    <video id="trailer_video" controls style={{ width: `100%` }}>
       <source src={Trailer} type="video/mp4" />
     </video>
   </div>
