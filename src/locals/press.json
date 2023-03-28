@@ -3,5 +3,20 @@
     "text_1":"This page contains resources for the press",
 
 
-    "back_to_homepage":"Go back to the homepage"
+    "back_to_homepage":"Go back to the homepage",
+
+
+    "no":{
+        "press_link":"Pressemelding - Norsk", 
+        "press_text":"Pressemelding",
+        "review_link":"",
+        "review_text":"Eksempel produktandmeldelse "
+    },
+
+    "en":{
+        "press_link":"Pressemelding - Norsk", 
+        "press_text":"Press release",
+        "review_link":"",
+        "review_text":"Example product review"
+    }
 }

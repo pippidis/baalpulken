@@ -7,7 +7,7 @@ const Feature = (props) => {
     return (
         <div className="front_text">
             <div className="front_text_text">{text_1}</div>
-            <div className="front_text_text">{text_1}</div>
+            <div className="front_text_text">{text_2}</div>
         </div>
     )
   }
