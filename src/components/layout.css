@@ -228,10 +228,12 @@ pre tt:after {
 
 /* out */
 .footer {
+  position: relative;
   margin-top: var(--space-5);
   font-size: var(--font-sm);
   display: flex;
   align-items: center;
+  padding: var(--space-4);
 }
 
 .footer_left {
@@ -283,19 +285,6 @@ pre tt:after {
   font-weight: bolder;
 }
 
-/* Front text */
-.front_text{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: var(--space-2);
-}
-.front_text_text{
-  margin-left: var(--space-3);
-  margin-right: var(--space-3);
-  margin-bottom: var(--space-2)
-}
-
 
 /* Trailer setup */
 .trailer {
@@ -322,11 +311,13 @@ pre tt:after {
 
 
 /* ######### REWRITE ######### */
+.index_offset{
+  position: absolute;
+  top: var(--front-picture_height)
+}
 
 /* Front text */
 .front_text{
-  position: absolute;
-  top: var(--front-picture_height);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -434,6 +425,7 @@ button:hover {
 .press {
   display: flex;
   flex-direction: column;
+  padding: var(--space-6);
 }
 
 /* On the phone */
@@ -482,6 +474,10 @@ button:hover {
 
   .form-block {
     max-width: calc(var(--size-content));
+  }
+
+  .testing{
+    padding: var(--space-4);
   }
 
 }

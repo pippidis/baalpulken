@@ -18,5 +18,9 @@
         "press_text":"Press release",
         "review_link":"",
         "review_text":"Example product review"
+    },
+    "img":{
+        "link":"",
+        "link_text":"Downloadable images"
     }
 }

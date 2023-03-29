@@ -21,10 +21,12 @@ const Feature = (props) => {
                 alt={alt}
                 />
         </div>
-        <div className='feature_text_left'>
+        <div className='feature_text_left2'>
+          <div className="testing">
             <h2>{title}</h2>
             <p>{text_1}</p>
             <p>{text_2}</p>
+            </div>
         </div>
     </div>
   )

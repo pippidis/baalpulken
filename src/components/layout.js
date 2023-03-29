@@ -37,18 +37,12 @@ const Layout = ({ children, built_with, press_link}) => {
           justifyContent: 'center',
         }}
       >
-        <main>{children}</main>
-        <footer className="footer">
-          <div className="footer_left">
-            © {new Date().getFullYear()} &middot; {built_with}
-          </div>
-          <div className="footer_right">
-            <Link to="/press"> {press_link}</Link>
-          </div>
-        </footer>
+        <main>{children}</main> 
+
       </div>
     </>
   )
 }
 
 export default Layout
+
