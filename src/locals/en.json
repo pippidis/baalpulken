@@ -1,26 +1,38 @@
 {   
-    "built_with":"Bygget med ett eller annet",
-    "page_name":"Bonfire pulka",
+    "built_with":"Bålpulkkompaniet",
+    "press_link":"Press",
+    "page_name":"Baalpulken",
     "slogan":"Dont just sit there",
-    
 
+    "index": {
+        "text_1":"Bålpulken er et revolusjonerende nytt produkt som kombinerer AI, aerodynamikk og bål for skøyteløpere. Utviklet av et team av eksperter innenfor AI og produktutvikling, er Bålpulken designet for å gi skøyteløpere en unik og spennende opplevelse. Produktet har avansert aerodynamikk for å beskytte bålet. Bålpulken er enkel å bruke og kan festes til hvilken som helst ryggsekk.",
+        "text_2":""
+    },
+    "contact_form": {
+        "title":"Interesert? - Ta kontakt",
+        "text":"Meld din interesse i dag så tar vi kontakt når vi åpner for bestillinger.",
+        "name":"Name",
+        "email":"Email",
+        "comment":"Comment",
+        "submit":"Send"
+    },
 
     "skates":{
-        "title":"Laget for hastighet!", 
-        "text_1":"Ett eller annet om skøyter",
-        "text_2":"",
+        "title":"Laget for hastighet", 
+        "text_1":"Bålpulken kommer med spessialdesignede skøyter som sikrer en friksjonsløs opplevelse selv ved vanskelige forhold. Når bålet er tent blir skøytene oppvarmet og gir en unik lavfriksjonopplevelse. ",
+        "text_2":"Skøytene fungerer også som en avstandsmekanisme mellom pulken og isen noe som reduserer faren for at isen smelter. Skal bålpulken brukes stasjonært over lengre tid anbefales det å bruke vedkubber for å gi ektra isolasjon og en mer ergonomisk bålopplevelse.",
         "img_alt":"Bilde av skøytene på bålpulken"
     },
     "hooks":{
-        "title":"Effektivt feste!", 
-        "text_1":"Ett eller annet om skøyter",
-        "text_2":"",
-        "img_alt":"Bilde av skøytene på bålpulken"
+        "title":"Multifunksjonelt feste", 
+        "text_1":"Bålpulken er utstyrt med to festepunker i rustfritt stål som kan brukes sammen med hvilket som helst trekksystem og alle typer ryggsekker.",
+        "text_2":"Utformingen av festene sikrer avstand mellom bålet og trekksystemet noe som forebygger varmeskade. Festene fungerer også godt til å henge opp Bålpulken når den ikke er i bruk.",
+        "img_alt":"Bilde av krokene for å trekke Bålpulken"
     },
     "windshield":{
-        "title":"Laget for hastighet!", 
-        "text_1":"Ett eller annet om skøyter",
-        "text_2":"",
-        "img_alt":"Bilde av skøytene på bålpulken"
+        "title":"Aerodynamisk utformet", 
+        "text_1":"Den inovative utforminingen av Bålpulken skjermer bålet fra vinden i selv stor hastighet og gir optimal luftstrøm for god tenning.",
+        "text_2":"Utformingen sikrer også god fremkomst i alle forhold. Selv dyp snø er ikke noe problem for Bålpulken. ",
+        "img_alt":"Bilde av vindfangeren på bålpulken"
     }
 }

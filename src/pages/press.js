@@ -5,23 +5,35 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 
+import * as TXT_INDEX from "../locals/no.json"
 
 
 import * as TXT from "../locals/press.json"
+
+const txt_index = TXT_INDEX
 const txt = TXT
 
 const Press = () => (
-  <Layout>
+  <Layout built_with={txt_index.built_with} press_link={txt_index.press_link}>
     <h1>{txt.header}</h1>
     <p>{txt.text_1}</p>
     
     <div className="press">
       <h2>Norsk</h2>
-    <a href="https://docs.google.com/document/d/1gBjc1oypYtqLaP8T0fplWbPfg7Erclv5/edit?usp=share_link&ouid=112273596005722745529&rtpof=true&sd=true" download>Download the directly imported file</a>{` `}
-
+        <a href={txt.no.press_link} download>{txt.no.press_text}</a>{` `}
+        <a href={txt.no.review_link} download>{txt.no.review_text}</a>{` `}
       <h2>English</h2>
-    
+        <a href={txt.en.press_link} download>{txt.en.press_text}</a>{` `}
+        <a href={txt.en.review_link} download>{txt.en.review_text}</a>{` `}
+
+      <h2>Images</h2>
+
     </div>
+
+
+
+
+    <p> </p>
     <Link to="/">{txt.back_to_homepage}</Link>
   </Layout>
 )
