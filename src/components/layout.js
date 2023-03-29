@@ -41,8 +41,6 @@ const Layout = ({ children, built_with, press_link}) => {
         <footer className="footer">
           <div className="footer_left">
             © {new Date().getFullYear()} &middot; {built_with}
-            {` `}
-            <a href="https://www.gatsbyjs.com">Gatsby</a>
           </div>
           <div className="footer_right">
             <Link to="/press"> {press_link}</Link>
