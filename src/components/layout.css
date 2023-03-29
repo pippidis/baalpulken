@@ -325,6 +325,8 @@ pre tt:after {
 
 /* Front text */
 .front_text{
+  position: absolute;
+  top: var(--front-picture_height);
   display: flex;
   flex-direction: column;
   justify-content: center;
