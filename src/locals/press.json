@@ -1,26 +1,32 @@
 {
     "header":"Press information", 
-    "text_1":"This page contains resources for the press",
-
+    "text_1":"This page contains resources for the press. All the resouces are colleted in one folder here: ",
+    "onedrive_link":"https://1drv.ms/f/s!AsEkvACFaC98iMkyqD2u9rvVGEKy8Q?e=puP1IJ",
+    "onedrive_text":"Bålpulken resources",
 
     "back_to_homepage":"(Go back to the homepage)",
 
 
     "no":{
-        "press_link":"Pressemelding - Norsk", 
+        "press_link":"https://1drv.ms/w/s!AsEkvACFaC98iMk4ZSPfSXwBgCPz3w?e=9w5Wgi", 
         "press_text":"Pressemelding",
-        "review_link":"",
+        "review_link":"https://1drv.ms/w/s!AsEkvACFaC98iMk3rZh9flAAYNZCtw?e=5Qnryt",
         "review_text":"Eksempel produktandmeldelse "
     },
 
     "en":{
-        "press_link":"Pressemelding - Norsk", 
+        "press_link":"https://1drv.ms/w/s!AsEkvACFaC98iMk5d9l70ECjTQhKrg?e=hFSS5s", 
         "press_text":"Press release",
-        "review_link":"",
+        "review_link":"https://1drv.ms/w/s!AsEkvACFaC98iMk6yEsKVEGgkSRutg?e=mPbuKV",
         "review_text":"Example product review"
     },
-    "img":{
-        "link":"",
-        "link_text":"Downloadable images"
+    "media":{
+        "product_link":"https://1drv.ms/f/s!AsEkvACFaC98iMk1vBARWwdB90dztg?e=m5kypa",
+        "product_text":"Product images",
+        "instagram_link":"https://1drv.ms/f/s!AsEkvACFaC98iMk2M0AvA3pfMIsWsQ?e=NLpGY6",
+        "instagram_text":"Images",
+        "video_link":"https://1drv.ms/f/s!AsEkvACFaC98iMk7ej48qtXgUq4U_A?e=3ROBnO",
+        "video_text":"Videos"
     }
+
 }

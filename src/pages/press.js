@@ -18,7 +18,10 @@ const Press = () => (
     
     <div className="press">       
       <h1>{txt.header}</h1>
-      <p>{txt.text_1}</p>
+      <p>{txt.text_1} <a href={txt.onedrive_link} download>{txt.onedrive_text}</a>{` `}</p>
+
+      
+
       <h2>Norsk</h2>
         <a href={txt.no.press_link} download>{txt.no.press_text}</a>{` `}
         <a href={txt.no.review_link} download>{txt.no.review_text}</a>{` `}
@@ -26,16 +29,19 @@ const Press = () => (
         <a href={txt.en.press_link} download>{txt.en.press_text}</a>{` `}
         <a href={txt.en.review_link} download>{txt.en.review_text}</a>{` `}
 
-      <h2>Images</h2>
-      <a href={txt.img.link} download>{txt.img.link_text}</a>{` `}
+      <h2>Media</h2>
+      <a href={txt.media.product_link} download>{txt.media.product_text}</a>{` `}
+      <a href={txt.media.instagram_link} download>{txt.media.instagram_text}</a>{` `}
+      <a href={txt.media.video_link} download>{txt.media.video_text}</a>{` `}
 
+      <p> </p>
+      <Link to="/">{txt.back_to_homepage}</Link>
     </div>
 
 
 
 
-    <p> </p>
-    <Link to="/">{txt.back_to_homepage}</Link>
+    
     <footer className="footer">
           <div className="footer_left">
             © {new Date().getFullYear()} &middot; {txt_index.built_with}
