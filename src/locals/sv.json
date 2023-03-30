@@ -1,38 +1,38 @@
 {   
     "built_with":"Bålpulkkompaniet",
-    "press_link":"Presse",
-    "page_name":"Bålpulken",
-    "slogan":"Ikke bare sitt der",
+    "press_link":"Press",
+    "page_name":"Bålpulkan",
+    "slogan":"Inte bara sitt där",
 
     "index": {
-        "text_1":"Bålpulken er et revolusjonerende nytt produkt som kombinerer AI, aerodynamikk og bål for skøyteløpere. Utviklet av et team av eksperter innenfor AI og produktutvikling, er Bålpulken designet for å gi skøyteløpere en unik og spennende opplevelse. Produktet har avansert aerodynamikk for å beskytte bålet. Bålpulken er enkel å bruke og kan festes til hvilken som helst ryggsekk.",
+        "text_1":"Bålpulkan är en revolutionerande ny produkt som kombinerar AI, aerodynamik och öppen eld för skridskoåkare. Bålpulkan är utvecklad av ett team experter inom AI och produktutveckling och är utformad för att ge skridskoåkare en unik och spännande upplevelse på isen. Produkten har en avancerad aerodynamik för att skydda brasan. Bålpulkan är lätt att använda och kan fästas på valfri ryggsäck",
         "text_2":""
     },
     "contact_form": {
-        "title":"Interesert? - Ta kontakt",
-        "text":"Meld din interesse i dag så tar vi kontakt når vi åpner for bestillinger.",
-        "name":"Navn",
-        "email":"Epost",
+        "title":"Interesserad? - Ta kontakt",
+        "text":"Uppge kontaktinformation, så kontaktar vi dig när vi öppnar för beställningar.",
+        "name":"Namn",
+        "email":"E-post",
         "comment":"Kommentar",
-        "submit":"Send"
+        "submit":"Skicka"
     },
 
     "skates":{
-        "title":"Laget for hastighet", 
-        "text_1":"Bålpulken kommer med spessialdesignede skøyter som sikrer en friksjonsløs opplevelse selv ved vanskelige forhold. Når bålet er tent blir skøytene oppvarmet og gir en unik lavfriksjonopplevelse. ",
-        "text_2":"Skøytene fungerer også som en avstandsmekanisme mellom pulken og isen noe som reduserer faren for at isen smelter. Skal bålpulken brukes stasjonært over lengre tid anbefales det å bruke vedkubber for å gi ektra isolasjon og en mer ergonomisk bålopplevelse.",
-        "img_alt":"Bilde av skøytene på bålpulken"
+        "title":"Utformad för hastighet", 
+        "text_1":"Bålpulkan kommer på specialdesignade skridskor, som ser till en friktionslös upplevelse, även på utmanande is. När elden tänds, värms skridskorna upp och skär genom isen närmast friktionsfritt.",
+        "text_2":"Skridskorna spelar också en viktig roll genom säkerhetsavståndet de utgör mellan pulkan och isen och minskar risken för att isen smälter. Ska eldstaden användas stillastående på isen, rekommenderas användandet av vedklabbar för värmeisolering såväl som för att skapa en mer ergonomisk naturupplevelse.",
+        "img_alt":"Bild av skridskorna under bålpulkan"
     },
     "hooks":{
-        "title":"Multifunksjonelt feste", 
-        "text_1":"Bålpulken er utstyrt med to festepunker i rustfritt stål som kan brukes sammen med hvilket som helst trekksystem og alle typer ryggsekker.",
-        "text_2":"Utformingen av festene sikrer avstand mellom bålet og trekksystemet noe som forebygger varmeskade. Festene fungerer også godt til å henge opp Bålpulken når den ikke er i bruk.",
-        "img_alt":"Bilde av krokene for å trekke Bålpulken"
+        "title":"Multifunktionell fäst-anordning",
+        "text_1":"Bålpulkan är utrustad med två fästen i rostfritt stål som enkelt kan fastgöras på alla dragsystem och alla ryggsäkkar/seler.",
+        "text_2":"Utformningen av infästningarna säkrar avstånd mellan brasan og kopplingssystemet och förhindrar värmeskador. Infästningarna kan också användas som upphänge till bålpulkan när den inte används.",
+        "img_alt":"Bild av infästningarna för att dra pulkan."
     },
     "windshield":{
-        "title":"Aerodynamisk utformet", 
-        "text_1":"Den inovative utforminingen av Bålpulken skjermer bålet fra vinden i selv stor hastighet og gir optimal luftstrøm for god tenning.",
-        "text_2":"Utformingen sikrer også god fremkomst i alle forhold. Selv dyp snø er ikke noe problem for Bålpulken. ",
-        "img_alt":"Bilde av vindfangeren på bålpulken"
+        "title":"Aerodynamiskt utformad", 
+        "text_1":"Pulkans innovativa design skyddar elden fron vinden, även i hög hastighet och säkrar optimalt luftflöde för en lysande brasa.",
+        "text_2":"Pulkan är designad för säker framkost på all is, ock tacklar även djup snö. ",
+        "img_alt":"Bild av vindskyddet på bålpulkan"
     }
 }
