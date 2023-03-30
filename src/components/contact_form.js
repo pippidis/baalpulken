@@ -9,7 +9,7 @@ const ContactForm = ({title, text, name, email, comment, submit}) => {
         <div className="form-block">
             
             <form method="post" data-email='pippidis+baalpulken@gmail.com'
-                action='https://script.google.com/macros/s/AKfycbzVPZLsSkL3dRHKS5_NfYSF_GynFNVW4VNaHFMNu5XTxca-XgauVLPf05Tw6dYOcS3o/exec'
+                action='https://script.google.com/macros/s/AKfycbx9KNihJX3t2yK3KdtOfoo63CqpgDz3KHpDvpsHRd_wmuqbm8JN7NcEnP9O7MMNdzEi/exec'
             >
                 <h2>{title}</h2>
             <p>{text}</p>
