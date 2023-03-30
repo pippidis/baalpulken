@@ -312,8 +312,9 @@ pre tt:after {
 
 /* ######### REWRITE ######### */
 .index_offset{
-  position: absolute;
-  top: var(--front-picture_height)
+  position: absolute center;
+  top: var(--front-picture_height);
+  max-width: var(--size-content);
 }
 
 /* Front text */
