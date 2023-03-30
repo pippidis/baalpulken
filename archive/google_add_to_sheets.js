@@ -2,11 +2,35 @@
  * This tutorial is based on the work of Martin Hawksey twitter.com/mhawksey  *
  * But has been simplified and cleaned up to make it more beginner friendly   *
  * All credit still goes to Martin and any issues/complaints/questions to me. *
- * https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server
  ******************************************************************************/
 
 // if you want to store your email server-side (hidden), uncomment the next line
-var TO_ADDRESS = "pippidis+baalpulken@gmail.com";
+//var TO_ADDRESS = 'undefined'//"pippidis+baalpulken@gmail.com";
+
+var RESPONSE_SUBJECT = "Bålpulken! - Aprilsnarr / April fools"
+var RESPONSE_BODY = `Hei, 
+
+Du gikk ble lurt og Bålpulken er nok dessverre en aprilsnarr som vi laget som en veldig dårlig ide. I realiteten har vi ingen planer om å kommersialisere Bålpulken ettersom markedet og potensielle inntekter er alt for små. 
+
+Vi er alle fortiden oppe i fjellet på ski for øyeblikket så vi kan ikke gjøre narr av deg akkurat nå. Vi kommer derimot til å sende en epost til alle (inkludert deg) som har blitt lurt med instruksjoner på hvordan du kan bygge din egen når vi er tilbake i byen. 
+
+NB: Bålpulken er ekte og fungerer veldig bra på skøytetur :)
+
+
+##############################################
+English: 
+
+Hi, 
+You were fooled and Bålpulken is unfortunately an April fools joke that we made as a really bad idea. In reality we have no plans to commercialise the idea as the market and potential earnings are way too small. 
+
+We are all in the mountains skiing right now, so we can't make fun of you right now. However, we will send out an email to everyone (including you) that has been fooled with instructions on how to build your own once we are back in civilization. 
+
+BTW: Bålpulken is physically real and it works really well when skating :)
+
+Laughing regards, 
+Johannes & Andreas Lorentzen
+`
+
 
 // spit out all the keys/values from the form in HTML for email
 // uses an array of keys if provided or the object to determine field order
@@ -60,9 +84,11 @@ function doPost(e) {
     if (sendEmailTo) {
       MailApp.sendEmail({
         to: String(sendEmailTo),
-        subject: "Contact form submitted",
+        subject: RESPONSE_SUBJECT,
+        //subject: "Contact form submitted",
         // replyTo: String(mailData.email), // This is optional and reliant on your form actually collecting a field named `email`
-        htmlBody: formatMailBody(mailData, dataOrder)
+        htmlBody: RESPONSE_BODY
+        //htmlBody: formatMailBody(mailData, dataOrder)
       });
     }
 
