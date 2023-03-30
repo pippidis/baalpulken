@@ -313,7 +313,7 @@ pre tt:after {
 /* ######### REWRITE ######### */
 .index_offset{
   position: absolute center;
-  top: var(--front-picture_height);
+  top: calc(var(--front-picture_height) + var(--space-2));
   max-width: var(--size-content);
 }
 
