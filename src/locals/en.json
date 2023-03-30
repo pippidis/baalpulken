@@ -2,37 +2,37 @@
     "built_with":"Bålpulkkompaniet",
     "press_link":"Press",
     "page_name":"Baalpulken",
-    "slogan":"Dont just sit there",
+    "slogan":"Don't just sit there",
 
     "index": {
-        "text_1":"Bålpulken er et revolusjonerende nytt produkt som kombinerer AI, aerodynamikk og bål for skøyteløpere. Utviklet av et team av eksperter innenfor AI og produktutvikling, er Bålpulken designet for å gi skøyteløpere en unik og spennende opplevelse. Produktet har avansert aerodynamikk for å beskytte bålet. Bålpulken er enkel å bruke og kan festes til hvilken som helst ryggsekk.",
+        "text_1":"Baalpulken is a revolutionary new product that combines AI, aerodynamics, and bonfires for ice skaters. Developed by a team of experts in AI and product development, Baalpulken is designed to give skaters a unique and exciting experience. The utilizes advanced aerodynamics to protect the fire. The fire pit is easy to use and can and is easily attachable to any backpack.",
         "text_2":""
     },
     "contact_form": {
         "title":"Interested? - Contact us today!",
-        "text":"Meld din interesse i dag så tar vi kontakt når vi åpner for bestillinger.",
+        "text":"Register here to get notified when the product is available for shipment.",
         "name":"Name",
-        "email":"Email",
+        "email":"E-mail",
         "comment":"Comment",
         "submit":"Send"
     },
 
     "skates":{
-        "title":"Laget for hastighet", 
-        "text_1":"Bålpulken kommer med spessialdesignede skøyter som sikrer en friksjonsløs opplevelse selv ved vanskelige forhold. Når bålet er tent blir skøytene oppvarmet og gir en unik lavfriksjonopplevelse. ",
-        "text_2":"Skøytene fungerer også som en avstandsmekanisme mellom pulken og isen noe som reduserer faren for at isen smelter. Skal bålpulken brukes stasjonært over lengre tid anbefales det å bruke vedkubber for å gi ektra isolasjon og en mer ergonomisk bålopplevelse.",
-        "img_alt":"Bilde av skøytene på bålpulken"
+        "title":"Made for speed", 
+        "text_1":"Baalpulken comes with custom-made skates that ensure a frictionless experience even in difficult ice skating-conditions. When the fire has been lit, the skates heat up and provide a unique low-friction experience.Baalpulken comes with custom-made skates that ensure a frictionless experience even in difficult ice skating-conditions. When the fire has been lit, the skates heat up and provide a unique low-friction experience.",
+        "text_2":"The skates also function as a safety measure and act as a buffer between the sled and the ice, reducing the risk of the ice melting. If the fire pit is to be used stationary for longer periods of time, the use of logs underneath is recommended, to provide extra insulation and a more ergonomic campfire experience.",
+        "img_alt":"Photo of the Baalpulken skates."
     },
     "hooks":{
-        "title":"Multifunksjonelt feste", 
-        "text_1":"Bålpulken er utstyrt med to festepunker i rustfritt stål som kan brukes sammen med hvilket som helst trekksystem og alle typer ryggsekker.",
-        "text_2":"Utformingen av festene sikrer avstand mellom bålet og trekksystemet noe som forebygger varmeskade. Festene fungerer også godt til å henge opp Bålpulken når den ikke er i bruk.",
-        "img_alt":"Bilde av krokene for å trekke Bålpulken"
+        "title":"Multifunctional fastening", 
+        "text_1":"Baalpulken comes with two attachments in stainless steel, which are compatible with any harness fastening system as well as backpacks.", 
+        "text_2":"The design of the fasteners ensures enough distance between the fire and the harness attachments, which prevents heat damage. The fasteners also double as hanging attachments for Baalpulken when not it use.",
+        "img_alt":"Photo of attachment hooks on Baalpulken."
     },
     "windshield":{
-        "title":"Aerodynamisk utformet", 
-        "text_1":"Den inovative utforminingen av Bålpulken skjermer bålet fra vinden i selv stor hastighet og gir optimal luftstrøm for god tenning.",
-        "text_2":"Utformingen sikrer også god fremkomst i alle forhold. Selv dyp snø er ikke noe problem for Bålpulken. ",
-        "img_alt":"Bilde av vindfangeren på bålpulken"
+        "title":"Aerodynamic design", 
+        "text_1":"The innovative design of Baalpulken shields the fire from wind, even at higher speeds and provides optimum airflow and sparkling ignition.",
+        "text_2":"The design is accommodating to all skating-conditions and even tackles deep snow.",
+        "img_alt":"Photo of the windshield on Baalpulken."
     }
 }
