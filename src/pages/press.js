@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image"
 
 
 import * as TXT_INDEX from "../locals/no.json"
@@ -33,6 +34,16 @@ const Press = () => (
       <a href={txt.media.product_link} download>{txt.media.product_text}</a>{` `}
       <a href={txt.media.instagram_link} download>{txt.media.instagram_text}</a>{` `}
       <a href={txt.media.video_link} download>{txt.media.video_text}</a>{` `}
+
+      <p> </p>
+      <StaticImage
+                src="../images/using_baalpulken.jpg"
+                loading="eager"
+                width={1300}
+                quality={100}
+                formats={["auto", "jpg"]}
+                alt="Picture of girls using Bålpulken"
+                />
 
       <p> </p>
       <Link to="/">{txt.back_to_homepage}</Link>

@@ -6,29 +6,32 @@
 
 // if you want to store your email server-side (hidden), uncomment the next line
 //var TO_ADDRESS = 'undefined'//"pippidis+baalpulken@gmail.com";
+var MY_EMAIL = 'pippidis+baalpulken@gmail.com'
 
 var RESPONSE_SUBJECT = "Bålpulken! - Aprilsnarr / April fools"
-var RESPONSE_BODY = `Hei, 
+var RESPONSE_BODY = `<p>Hei, </p>
 
-Du gikk ble lurt og Bålpulken er nok dessverre en aprilsnarr som vi laget som en veldig dårlig ide. I realiteten har vi ingen planer om å kommersialisere Bålpulken ettersom markedet og potensielle inntekter er alt for små. 
-\n\n
-Vi er alle fortiden oppe i fjellet på ski for øyeblikket så vi kan ikke gjøre narr av deg akkurat nå. Vi kommer derimot til å sende en epost til alle (inkludert deg) som har blitt lurt med instruksjoner på hvordan du kan bygge din egen når vi er tilbake i byen. 
-\n\n
-NB: Bålpulken er ekte og fungerer veldig bra på skøytetur :)
-\n\n
+<p>Du har offisiellt gått rett på vår fenomenale aprilsnarr! Vi har i relaliteten ingen planer om å komersialisere Bålpulken ettersom markedet og potensielle inntekter vil være minimalt. </p>
 
-##############################################\n\n
-English: 
-\n\n
-Hi, 
-You were fooled and Bålpulken is unfortunately an April fools joke that we made as a really bad idea. In reality we have no plans to commercialise the idea as the market and potential earnings are way too small. 
-\n\n
-We are all in the mountains skiing right now, so we can't make fun of you right now. However, we will send out an email to everyone (including you) that has been fooled with instructions on how to build your own once we are back in civilization. 
-\n\n
-BTW: Bålpulken is physically real and it works really well when skating :)
-\n\n
-Laughing regards, \n
-Johannes & Andreas Lorentzen
+<p>Vi er for øyblikket oppe i fjellet på ski og er av den anledning ute av stand til å gjøre narr av deg akkurat nå. Vi vil derimot sende en epost til alle (inkludert deg) som har blitt lurt, med instruksjoner på hvordan å bygge din egen bålpulk så fort vi er tilbake i byen. </p>
+
+<p>NB: Bålpulken er ekte og fungerer veldig bra på skøytetur :)</p>
+
+<p>Med latterlige hilsen, </p>
+<p>Johannes & Andreas Lorentzen </p>
+
+<p>##############################################</p>
+<h2>English: </h2>
+
+<p>Hi, 
+<p>You have oficially been fooled by our phenominal prank. In reality we have no intention of commercializing the idea, since the size of the market and potential earnings are minimal. </p>
+
+<p>For the time being, we are skiing in the bewautiful norwegian mountains and are therefore unnable to mock you right now. Everyone who go fooled (including you) will however recieve an e-mail on how to build your own bålpulk as soon as we return to civilization. </p>
+
+<p>BTW: Bålpulken is real and it works really well when skating :)</p>
+
+<p>Laughing regards,</p>
+<p>Johannes & Andreas Lorentzen</p>
 `
 
 
@@ -83,9 +86,11 @@ function doPost(e) {
     // send email if to address is set
     if (sendEmailTo) {
       MailApp.sendEmail({
-        to: String(sendEmailTo),
+        to: String(mailData.email),
+        //to: String(sendEmailTo),
         subject: RESPONSE_SUBJECT,
         //subject: "Contact form submitted",
+        replyTo: MY_EMAIL,
         // replyTo: String(mailData.email), // This is optional and reliant on your form actually collecting a field named `email`
         htmlBody: RESPONSE_BODY
         //htmlBody: formatMailBody(mailData, dataOrder)
